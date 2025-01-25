@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc945c9a6500ed44f9dead75fe5a6dd4
+guid: 56c4e0030eeb11f4d9ffbf981b5823c2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,11 +97,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BubbleProjectile_16x16_0
+      name: gamejam_player_sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -111,18 +111,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5740087efbb89ab4abe77994bd357572
-      internalID: -511114105
+      spriteID: 01e87fc7e97bf1742864c883970fbc0a
+      internalID: -147217763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BubbleProjectile_16x16_1
+      name: gamejam_player_sheet_1
       rect:
         serializedVersion: 2
         x: 17
-        y: 240
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -132,18 +132,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 371eeb38378408144b551e5661d16705
-      internalID: 1944486646
+      spriteID: 764c50706735fbf4f9b11448ef68b0ae
+      internalID: 1272570368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BubbleProjectile_16x16_2
+      name: gamejam_player_sheet_2
       rect:
         serializedVersion: 2
         x: 34
-        y: 240
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -153,8 +153,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367179ec1b9cff24a898ac23e43baebd
-      internalID: -27299094
+      spriteID: 143ac47d8ceb24f419e5c664c01e86c7
+      internalID: 854059804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82428d3e23d771d4fa67aa59f79ed80a
+      internalID: -281740474
       vertices: []
       indices: 
       edges: []
@@ -170,9 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BubbleProjectile_16x16_0: -511114105
-      BubbleProjectile_16x16_1: 1944486646
-      BubbleProjectile_16x16_2: -27299094
+      gamejam_player_sheet_0: -147217763
+      gamejam_player_sheet_1: 1272570368
+      gamejam_player_sheet_2: 854059804
+      gamejam_player_sheet_3: -281740474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

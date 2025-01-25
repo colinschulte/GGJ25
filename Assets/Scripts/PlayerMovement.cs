@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public SpriteRenderer renderer;
     public Rigidbody2D rbody;
     public Collider2D collider;
     public Collider2D ground;
-    public Collider2D platform;
-    public Collider2D platform2;
-    public Collider2D platform3;
+    public Transform respawnPoint; 
     public float speed;
     public float jumpForce;
     float jumpPower;
@@ -17,7 +17,15 @@ public class PlayerMovement : MonoBehaviour
     public BubbleLaunch bubble;
     public Transform shotPosition;
     public SpriteRenderer sprite;
+    public bool isRight = false;
     public bool jumpPressed;
+    public bool isGrounded;
+    public bool isJumping;
+    public bool isMoving;
+    public bool isShooting;
+    public Animator animator;
+    public int score = 0;
+    public TextMeshProUGUI scoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -30,24 +38,15 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         movementLR = Input.GetAxis ("Horizontal");
-        if (Input.GetButtonDown("Jump") && (collider.bounds.Intersects(ground.bounds) || ((collider.bounds.Intersects(platform.bounds) || collider.bounds.Intersects(platform2.bounds) || collider.bounds.Intersects(platform3.bounds)) && Input.GetAxisRaw("Vertical") >= 0)))
+        if (Input.GetButtonDown("Jump") && (collider.bounds.Intersects(ground.bounds) && Input.GetAxisRaw("Vertical") >= 0))
         {
             jumpPressed = true;
-        }
-        else
-        {
-            if (jumpPower > 0)
-            {
-                //jumpPower -= 1f;
-            }
-        }
-
-        
+        }      
 
         //firing bubbles
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(bubble, shotPosition.position, shotPosition.rotation);
+            StartCoroutine(Fire());
         }
 
         if (Input.inputString != "")
@@ -58,20 +57,20 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(movementLR > 0 && !sprite.flipX)
+        if(movementLR > 0 && !sprite.flipY)
         {
             //shotPosition.transform.rotation = 180f;
-            Vector3 rot = shotPosition.rotation.eulerAngles;
-            rot = new Vector3(rot.x, rot.y + 180, rot.z);
-            shotPosition.rotation = Quaternion.Euler(rot);
-            sprite.flipX = true;
+            Vector3 rot = gameObject.transform.rotation.eulerAngles;
+            rot = new Vector3(rot.x, rot.y, rot.z + 180);
+            gameObject.transform.rotation = Quaternion.Euler(rot);
+            sprite.flipY = true;
         }
-        else if (movementLR < 0 && sprite.flipX)
+        else if (movementLR < 0 && sprite.flipY)
         {
-            Vector3 rot = shotPosition.rotation.eulerAngles;
-            rot = new Vector3(rot.x, rot.y + 180, rot.z);
-            shotPosition.rotation = Quaternion.Euler(rot);
-            sprite.flipX = false;
+            Vector3 rot = gameObject.transform.rotation.eulerAngles;
+            rot = new Vector3(rot.x, rot.y, rot.z + 180);
+            gameObject.transform.rotation = Quaternion.Euler(rot);
+            sprite.flipY = false;
         }
 
         if (jumpPressed)
@@ -86,6 +85,49 @@ public class PlayerMovement : MonoBehaviour
                 jumpPower -= 1f;
             }
         }
+
+        if(movementLR != 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
         rbody.velocity = new Vector2(movementLR * speed, jumpPower);
+
+        animator.SetBool("isJumping", isJumping);
+        animator.SetBool("isMoving", isMoving);
+        animator.SetBool("isGrounded", isGrounded);
+        animator.SetBool("isShooting", isShooting);
+        animator.SetFloat("vertDirection", rbody.velocity.y);
+    }
+
+    public void runDeath()
+    {
+        StartCoroutine(Death());
+    }
+
+    IEnumerator Fire()
+    {
+        isShooting = true;
+        Instantiate(bubble, shotPosition.position, shotPosition.rotation);
+        yield return new WaitForSeconds(2f);
+        isShooting = false;
+    }
+
+    IEnumerator Death()
+    {
+        renderer.enabled = false;
+        gameObject.transform.position = respawnPoint.position;
+        yield return new WaitForSeconds(2f);
+        renderer.enabled = true;
+    }
+
+    public void addScore(int value)
+    {
+        score += value;
+        scoreText.text = "Score: " + score;
     }
 }

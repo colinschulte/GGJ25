@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc945c9a6500ed44f9dead75fe5a6dd4
+guid: fb8085970cdfc0548acea44d1743ea88
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BubbleProjectile_16x16_0
+      name: BubblePop_32x32_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
-        width: 16
-        height: 16
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5740087efbb89ab4abe77994bd357572
-      internalID: -511114105
+      spriteID: 7af88789051dce4428df835c9ba95e03
+      internalID: -1949128976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BubbleProjectile_16x16_1
+      name: BubblePop_32x32_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 240
-        width: 16
-        height: 16
+        x: 33
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 371eeb38378408144b551e5661d16705
-      internalID: 1944486646
+      spriteID: 36d898ab682977145b345fa97d95ac4a
+      internalID: 1763989775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BubbleProjectile_16x16_2
+      name: BubblePop_32x32_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 240
-        width: 16
-        height: 16
+        x: 66
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367179ec1b9cff24a898ac23e43baebd
-      internalID: -27299094
+      spriteID: 8324f2558184f4b45af6607a4b27e961
+      internalID: 777846805
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BubbleProjectile_16x16_0: -511114105
-      BubbleProjectile_16x16_1: 1944486646
-      BubbleProjectile_16x16_2: -27299094
+      BubblePop_32x32_0: -1949128976
+      BubblePop_32x32_1: 1763989775
+      BubblePop_32x32_2: 777846805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
