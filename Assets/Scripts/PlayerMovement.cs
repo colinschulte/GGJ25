@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+//using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rbody;
     public Collider2D collider;
     public Collider2D ground;
-    public Transform respawnPoint; 
+    public Transform respawnPoint;
     public float speed;
     public float jumpForce;
     float jumpPower;
@@ -32,7 +33,8 @@ public class PlayerMovement : MonoBehaviour
     public TextMeshProUGUI livesText;
     public int lives = 3;
     public Image gameover;
-
+    public GameObject jewels;
+    public UnityEngine.UI.Button backButton;
 
     public AudioSource JumpB;
     public AudioSource Lose;
@@ -50,11 +52,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementLR = Input.GetAxis ("Horizontal");
+        movementLR = Input.GetAxis("Horizontal");
         if (Input.GetButtonDown("Jump") && (collider.bounds.Intersects(ground.bounds) && Input.GetAxisRaw("Vertical") >= 0))
         {
             jumpPressed = true;
-        }      
+        }
 
         //firing bubbles
         if (Input.GetButtonDown("Fire1"))
@@ -66,11 +68,16 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log(Input.inputString);
         }
+
+        if (jewels.transform.childCount <= 0)
+        {
+            StartCoroutine(NewLevel());
+        }
     }
 
     void FixedUpdate()
     {
-        if(movementLR > 0 && !sprite.flipY)
+        if (movementLR > 0 && !sprite.flipY)
         {
             //shotPosition.transform.rotation = 180f;
             Vector3 rot = gameObject.transform.rotation.eulerAngles;
@@ -100,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if(movementLR != 0)
+        if (movementLR != 0)
         {
             isMoving = true;
         }
@@ -154,6 +161,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             gameover.gameObject.SetActive(true);
+            backButton.gameObject.SetActive(true);
             Lose.Play();
             Time.timeScale = 0;
         }
@@ -163,10 +171,22 @@ public class PlayerMovement : MonoBehaviour
     {
         score += value;
         scoreText.text = "Score: " + score;
-        if (score >= 1800)
-        {
-            Win.Play();
-            SceneManager.LoadSceneAsync(2);
-        }
+        //if (score >= 1800)
+        //{
+        //    StartCoroutine(NewLevel());
+        //}
+    }
+
+    IEnumerator NewLevel()
+    {
+        Win.Play();
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadSceneAsync(currentLevel + 1);
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadSceneAsync(0);
     }
 }

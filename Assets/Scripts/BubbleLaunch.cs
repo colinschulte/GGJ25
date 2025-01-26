@@ -42,7 +42,7 @@ public class BubbleLaunch : MonoBehaviour
     {
         PopA.Play();
         animator.SetBool("isPopped", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.4f);
         Destroy(gameObject);
     }
 }
