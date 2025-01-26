@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public int score = 0;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI livesText;
+    public int lives = 3;
+    public Image gameover;
 
     // Start is called before the first frame update
     void Start()
@@ -122,7 +126,17 @@ public class PlayerMovement : MonoBehaviour
         renderer.enabled = false;
         gameObject.transform.position = respawnPoint.position;
         yield return new WaitForSeconds(2f);
-        renderer.enabled = true;
+        if (lives > 0)
+        {
+            lives--;
+            livesText.text = "Lives: " + lives;
+            renderer.enabled = true;
+        }
+        else
+        {
+            gameover.gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 
     public void addScore(int value)

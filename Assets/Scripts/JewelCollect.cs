@@ -24,7 +24,7 @@ public class JewelCollect : MonoBehaviour
         //Debug.Log("connect");
         if (collision.gameObject.CompareTag("Player"))
         {
-            player = collision.gameObject.GetComponent<PlayerMovement>();
+            //player = collision.gameObject.GetComponent<PlayerMovement>();
             player.addScore(value);
             StartCoroutine(Collect());
         }
