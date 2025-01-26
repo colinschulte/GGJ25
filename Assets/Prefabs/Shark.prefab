@@ -218,6 +218,8 @@ MonoBehaviour:
   goalTransform: {x: 0, y: 0, z: 0}
   sprite: {fileID: 3163276418498465156}
   bubbleSprite: {fileID: 1359885558590458562}
+  Chomp: {fileID: 0}
+  PopA: {fileID: 0}
 --- !u!50 &4655077046896563923
 Rigidbody2D:
   serializedVersion: 4
@@ -288,7 +290,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.91, y: 0.76}
   m_EdgeRadius: 0
 --- !u!95 &6450042228092652630
 Animator:
