@@ -128,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
         isShooting = true;
         Shoot.Play();
         Instantiate(bubble, shotPosition.position, shotPosition.rotation);
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(0.2f);
         isShooting = false;
     }
 

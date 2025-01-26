@@ -78,7 +78,7 @@ public class SharkMovement : MonoBehaviour
     }
     IEnumerator Chewing()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.02f);
         isEating = false;
         isDanger = true;
     }

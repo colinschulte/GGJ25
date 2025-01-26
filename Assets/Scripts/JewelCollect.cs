@@ -36,7 +36,7 @@ public class JewelCollect : MonoBehaviour
         collider.enabled = false;
         gemGet.Play();
         animator.SetBool("isCollected", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.4f);
         Destroy(gameObject);
     }
 }
