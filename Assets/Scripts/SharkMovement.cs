@@ -57,7 +57,7 @@ public class SharkMovement : MonoBehaviour
         if (isDanger && collision.gameObject.CompareTag("Player"))
         {
             PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
-            player.runDeath();
+            player.runDeath(gameObject.tag);
             isEating = true;
             isDanger = false;
             StartCoroutine(Chewing());

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -108,9 +109,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("vertDirection", rbody.velocity.y);
     }
 
-    public void runDeath()
+    public void runDeath(string tag)
     {
-        StartCoroutine(Death());
+        StartCoroutine(Death(tag));
     }
 
     IEnumerator Fire()
@@ -121,10 +122,17 @@ public class PlayerMovement : MonoBehaviour
         isShooting = false;
     }
 
-    IEnumerator Death()
+    IEnumerator Death(string tag)
     {
+        if (tag == "Jelly")
+        {
+            animator.SetBool("isShocked", true);
+            yield return new WaitForSeconds(1f);
+        }
+
         renderer.enabled = false;
         gameObject.transform.position = respawnPoint.position;
+        animator.SetBool("isShocked", false);
         yield return new WaitForSeconds(2f);
         if (lives > 0)
         {

@@ -20,7 +20,7 @@ public class JellyDamage : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
-            player.runDeath();
+            player.runDeath(gameObject.tag);
         }
     }
 }
