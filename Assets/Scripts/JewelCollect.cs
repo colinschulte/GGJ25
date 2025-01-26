@@ -7,6 +7,8 @@ public class JewelCollect : MonoBehaviour
     public Animator animator;
     public int value;
     public PlayerMovement player;
+    public Collider2D collider;
+    public AudioSource gemGet;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +27,14 @@ public class JewelCollect : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             //player = collision.gameObject.GetComponent<PlayerMovement>();
-            player.addScore(value);
             StartCoroutine(Collect());
+            player.addScore(value);
         }
     }
     IEnumerator Collect()
     {
+        collider.enabled = false;
+        gemGet.Play();
         animator.SetBool("isCollected", true);
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);

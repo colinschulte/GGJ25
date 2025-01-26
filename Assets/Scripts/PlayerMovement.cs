@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
@@ -31,6 +32,13 @@ public class PlayerMovement : MonoBehaviour
     public TextMeshProUGUI livesText;
     public int lives = 3;
     public Image gameover;
+
+
+    public AudioSource JumpB;
+    public AudioSource Lose;
+    public AudioSource Shoot;
+    public AudioSource Win;
+    public AudioSource Zap;
 
     // Start is called before the first frame update
     void Start()
@@ -80,6 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (jumpPressed)
         {
+            JumpB.Play();
             jumpPower = jumpForce;
             jumpPressed = false;
         }
@@ -117,8 +126,9 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator Fire()
     {
         isShooting = true;
+        Shoot.Play();
         Instantiate(bubble, shotPosition.position, shotPosition.rotation);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.75f);
         isShooting = false;
     }
 
@@ -127,6 +137,7 @@ public class PlayerMovement : MonoBehaviour
         if (tag == "Jelly")
         {
             animator.SetBool("isShocked", true);
+            Zap.Play();
             yield return new WaitForSeconds(1f);
         }
 
@@ -143,6 +154,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             gameover.gameObject.SetActive(true);
+            Lose.Play();
             Time.timeScale = 0;
         }
     }
@@ -151,5 +163,10 @@ public class PlayerMovement : MonoBehaviour
     {
         score += value;
         scoreText.text = "Score: " + score;
+        if (score >= 1800)
+        {
+            Win.Play();
+            SceneManager.LoadSceneAsync(2);
+        }
     }
 }

@@ -8,6 +8,7 @@ public class BubbleLaunch : MonoBehaviour
     public float speed = 10f;
     public Animator animator;
     public SharkMovement shark;
+    public AudioSource PopA;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,7 @@ public class BubbleLaunch : MonoBehaviour
     }
     IEnumerator Pop()
     {
+        PopA.Play();
         animator.SetBool("isPopped", true);
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);

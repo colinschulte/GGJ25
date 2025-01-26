@@ -15,6 +15,11 @@ public class SharkMovement : MonoBehaviour
     public Vector3 goalTransform;
     public SpriteRenderer sprite;
     public SpriteRenderer bubbleSprite;
+
+    public AudioSource Chomp;
+    public AudioSource PopA;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +62,7 @@ public class SharkMovement : MonoBehaviour
         if (isDanger && collision.gameObject.CompareTag("Player"))
         {
             PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
+            Chomp.Play();
             player.runDeath(gameObject.tag);
             isEating = true;
             isDanger = false;
@@ -66,6 +72,7 @@ public class SharkMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Surface"))
         {
             sprite.enabled = false;
+            PopA.Play();
             bubbleAnimator.SetBool("isPopped", true);
         }
     }
