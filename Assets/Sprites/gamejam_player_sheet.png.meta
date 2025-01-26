@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56c4e0030eeb11f4d9ffbf981b5823c2
+guid: a0dfab1236fe32d46adf3c5ff90570b2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,22 +97,568 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gamejam_player_sheet_0
+      name: playerspritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 16
-        height: 16
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e87fc7e97bf1742864c883970fbc0a
-      internalID: -147217763
+      spriteID: 4a2cb4ca4b567704ab4e53af2dc1eb37
+      internalID: -1033978176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6774835ac939649a8b426fcc3a898b
+      internalID: -920133601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56487fb4628d144f84af3a5e598646e
+      internalID: -299957021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca2fe47819e174497dd97a218baf2d
+      internalID: -1084792135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7255ce7361bdb324e82a98db19a74d40
+      internalID: 79710410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398d29a39a060de46b7cb1a19c0bda52
+      internalID: -2094126983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4236cbdf104b52d4aa2b41ed4c6e3e6b
+      internalID: 1780157947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edd9319335f70242a299cea10e7c34d
+      internalID: 930224504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c306956abb5f7f4da32c7c31c885243
+      internalID: 70491713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9822963db0028864a96de51cac10bef2
+      internalID: 655427590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 185
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b69e32ae126d284c924ace1938b3774
+      internalID: -758464337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 185
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f0f3a723cf6fe4f9b4203494a911b2
+      internalID: 620798249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f3c8d859fb06541997b081dbd6d7d6
+      internalID: 724223415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3992c15c1b2c1e64cba4f8276ddb2610
+      internalID: 324103260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba850a7afe86bb4ea5b164f1bc5b053
+      internalID: 1543403897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a65307c5ef23e4daab4aaffbc14dfb
+      internalID: 639027146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b18814c16a34bc40916b5039830d874
+      internalID: -528061728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989225e8478f76246ab34bae2cc3ace1
+      internalID: 1991663469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee55eae12d35b9845943ff7e5df91d98
+      internalID: -887066184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d80104873ac2d64f9e595c558284030
+      internalID: 243395350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 138
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1824a9e5d5bde438e54a1d0aa244c0
+      internalID: 559098961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1841bb3b7bcfb7d438d034ee66e30d3a
+      internalID: -2054696741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8e6ac1bf0a71842ba48c8d03921891
+      internalID: 1633432717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc250375090a90440bc6b15f6f135d5d
+      internalID: 616728045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b4c2fcf182d454cbd898a7423d079f
+      internalID: 1842720098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9408f2295fae645a078763144b5ffe
+      internalID: -1054448196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b8c83f973f52b4aab5208f0cb1f389
+      internalID: 2127015503
       vertices: []
       indices: 
       edges: []
@@ -121,19 +667,19 @@ TextureImporter:
       name: gamejam_player_sheet_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 16
-        height: 16
+        x: 51
+        y: 136
+        width: 50
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 764c50706735fbf4f9b11448ef68b0ae
-      internalID: 1272570368
+      spriteID: 4f34b70c4811aad4283302968fe8711a
+      internalID: -1657096062
       vertices: []
       indices: 
       edges: []
@@ -142,19 +688,19 @@ TextureImporter:
       name: gamejam_player_sheet_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 0
         y: 0
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 143ac47d8ceb24f419e5c664c01e86c7
-      internalID: 854059804
+      spriteID: 6ba1d5f4d6b6ce448bf944d407041c3b
+      internalID: -1188017357
       vertices: []
       indices: 
       edges: []
@@ -163,10 +709,409 @@ TextureImporter:
       name: gamejam_player_sheet_3
       rect:
         serializedVersion: 2
+        x: 17
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ffec58a5a0d9442b5c85d34c980799
+      internalID: -1482770169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e464a7ca4532048a9aa590863d715c
+      internalID: 207746230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_5
+      rect:
+        serializedVersion: 2
         x: 51
         y: 0
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5f4f3b01ada594781f541c73e499b3
+      internalID: -285035364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 182
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7828f5fe6956aa4faef5e38ed706948
+      internalID: -1207128364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 173
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d874b9fea77746800653dae247521
+      internalID: 840185396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 164
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578f3b82a7eb10a4f922a87a705c6f9d
+      internalID: 989062231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 155
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd3ae22c89227549927d4c848952017
+      internalID: -929517652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 146
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acc982221768bd47a1a64206327739b
+      internalID: -738370744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 137
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6e1357644ef1f41831aab0408adc1d
+      internalID: 821434028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 128
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141b0bc8c94f77c479f3945600c2cc58
+      internalID: 270999682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 119
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6da604c0ce8b24aaad201da91e5dd9
+      internalID: 123670969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 110
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ba3611ada9ad148b57993faaebacb3
+      internalID: -925012169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 101
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608776ee27b5df7489ab434b3b73222e
+      internalID: 1460805943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9af5264de0f9c4b8b26c4b70f18ef0
+      internalID: -767979441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 83
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5e9338429d2374fae55d7433bcd6bc
+      internalID: -1858676654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 74
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14ba2e7a0aecca4881543cd17ee6427
+      internalID: 609517889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 65
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7764b76aa70fa344e8e4170e5c1eb365
+      internalID: -16037422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 56
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5cea6198c2a2e43b68c0dd4a90c719
+      internalID: 731815651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2866dffeb99ef34ebf4d1d0440b4e69
+      internalID: -647191777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 182
+        width: 32
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +1119,323 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82428d3e23d771d4fa67aa59f79ed80a
-      internalID: -281740474
+      spriteID: 8736c28672735154fa26cb08880917a9
+      internalID: -1779870492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 173
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4cd57b7dac3ed449457dfbc0846d60
+      internalID: -2119909135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 164
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4518149579145074f91dbc13e0cf5ed2
+      internalID: 1747090566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 155
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8496bb477b77f0d40adb969be1914686
+      internalID: -1725571447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 146
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3823a8ef174c646a13c2347cdfe380
+      internalID: -749883823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 137
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62775e99a0d4144899fbcf898bc0142
+      internalID: 1510703202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5778da9c3f6d44290cf327a44b7051
+      internalID: 1432818079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 119
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c78d5d88f45789429c1162db34e1cf9
+      internalID: -796578300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 110
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ca402f30fbca45bf3690cb8fa60db
+      internalID: 2025308455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 101
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c33d13a0f012e49b8ee4b5ba3b474b
+      internalID: 917612779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 92
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1636f321a96e6f4479bb1df9e03a0c57
+      internalID: -208924190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 83
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a1068ef654d41418b83536f5c3b6a1
+      internalID: -968942747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 74
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca3d1d5adcae6b428a0ae8b6a4b6d6b
+      internalID: -741938307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 65
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124e41f80fa65264ba3ab836a3d79d98
+      internalID: -1464706352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 56
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8431cb10eccbf4459e0d83ce07bf049
+      internalID: -923833427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam_player_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 47
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c88cee8398d5f746b78cb0c414d977e
+      internalID: -1503707100
       vertices: []
       indices: 
       edges: []
@@ -191,10 +1451,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gamejam_player_sheet_0: -147217763
-      gamejam_player_sheet_1: 1272570368
-      gamejam_player_sheet_2: 854059804
-      gamejam_player_sheet_3: -281740474
+      gamejam_player_sheet_0: 2127015503
+      gamejam_player_sheet_1: -1657096062
+      gamejam_player_sheet_10: -738370744
+      gamejam_player_sheet_11: 821434028
+      gamejam_player_sheet_12: 270999682
+      gamejam_player_sheet_13: 123670969
+      gamejam_player_sheet_14: -925012169
+      gamejam_player_sheet_15: 1460805943
+      gamejam_player_sheet_16: -767979441
+      gamejam_player_sheet_17: -1858676654
+      gamejam_player_sheet_18: 609517889
+      gamejam_player_sheet_19: -16037422
+      gamejam_player_sheet_2: -1188017357
+      gamejam_player_sheet_20: 731815651
+      gamejam_player_sheet_21: -647191777
+      gamejam_player_sheet_22: -1779870492
+      gamejam_player_sheet_23: -2119909135
+      gamejam_player_sheet_24: 1747090566
+      gamejam_player_sheet_25: -1725571447
+      gamejam_player_sheet_26: -749883823
+      gamejam_player_sheet_27: 1510703202
+      gamejam_player_sheet_28: 1432818079
+      gamejam_player_sheet_29: -796578300
+      gamejam_player_sheet_3: -1482770169
+      gamejam_player_sheet_30: 2025308455
+      gamejam_player_sheet_31: 917612779
+      gamejam_player_sheet_32: -208924190
+      gamejam_player_sheet_33: -968942747
+      gamejam_player_sheet_34: -741938307
+      gamejam_player_sheet_35: -1464706352
+      gamejam_player_sheet_36: -923833427
+      gamejam_player_sheet_37: -1503707100
+      gamejam_player_sheet_4: 207746230
+      gamejam_player_sheet_5: -285035364
+      gamejam_player_sheet_6: -1207128364
+      gamejam_player_sheet_7: 840185396
+      gamejam_player_sheet_8: 989062231
+      gamejam_player_sheet_9: -929517652
+      playerspritesheet_0: -1033978176
+      playerspritesheet_1: -920133601
+      playerspritesheet_10: -758464337
+      playerspritesheet_11: 620798249
+      playerspritesheet_12: 724223415
+      playerspritesheet_13: 324103260
+      playerspritesheet_14: 1543403897
+      playerspritesheet_15: 639027146
+      playerspritesheet_16: -528061728
+      playerspritesheet_17: 1991663469
+      playerspritesheet_18: -887066184
+      playerspritesheet_19: 243395350
+      playerspritesheet_2: -299957021
+      playerspritesheet_20: 559098961
+      playerspritesheet_21: -2054696741
+      playerspritesheet_22: 1633432717
+      playerspritesheet_23: 616728045
+      playerspritesheet_24: 1842720098
+      playerspritesheet_25: -1054448196
+      playerspritesheet_3: -1084792135
+      playerspritesheet_4: 79710410
+      playerspritesheet_5: -2094126983
+      playerspritesheet_6: 1780157947
+      playerspritesheet_7: 930224504
+      playerspritesheet_8: 70491713
+      playerspritesheet_9: 655427590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
