@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_6
+      name: WavesUnder_00
       rect:
         serializedVersion: 2
         x: 180
@@ -803,7 +803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_7
+      name: WavesUnder_01
       rect:
         serializedVersion: 2
         x: 180
@@ -824,7 +824,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_8
+      name: WavesUnder_02
       rect:
         serializedVersion: 2
         x: 180
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_9
+      name: WavesUnder_03
       rect:
         serializedVersion: 2
         x: 180
@@ -866,7 +866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_10
+      name: WavesUnder_04
       rect:
         serializedVersion: 2
         x: 180
@@ -887,7 +887,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_11
+      name: WavesUnder_05
       rect:
         serializedVersion: 2
         x: 180
@@ -908,7 +908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_12
+      name: WavesUnder_06
       rect:
         serializedVersion: 2
         x: 180
@@ -929,7 +929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_13
+      name: WavesUnder_07
       rect:
         serializedVersion: 2
         x: 180
@@ -950,7 +950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_14
+      name: WavesUnder_08
       rect:
         serializedVersion: 2
         x: 180
@@ -971,7 +971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_15
+      name: WavesUnder_09
       rect:
         serializedVersion: 2
         x: 180
@@ -992,7 +992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_16
+      name: WavesUnder_10
       rect:
         serializedVersion: 2
         x: 180
@@ -1013,7 +1013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_17
+      name: WavesUnder_11
       rect:
         serializedVersion: 2
         x: 180
@@ -1034,7 +1034,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_18
+      name: WavesUnder_12
       rect:
         serializedVersion: 2
         x: 180
@@ -1055,7 +1055,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_19
+      name: WavesUnder_13
       rect:
         serializedVersion: 2
         x: 180
@@ -1076,7 +1076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_20
+      name: WavesUnder_14
       rect:
         serializedVersion: 2
         x: 180
@@ -1097,7 +1097,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_21
+      name: WavesUnder_15
       rect:
         serializedVersion: 2
         x: 180
@@ -1118,7 +1118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_22
+      name: WavesSurface_00
       rect:
         serializedVersion: 2
         x: 197
@@ -1139,7 +1139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_23
+      name: WavesSurface_01
       rect:
         serializedVersion: 2
         x: 197
@@ -1160,7 +1160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_24
+      name: WavesSurface_02
       rect:
         serializedVersion: 2
         x: 197
@@ -1181,7 +1181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_25
+      name: WavesSurface_03
       rect:
         serializedVersion: 2
         x: 197
@@ -1202,7 +1202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_26
+      name: WavesSurface_04
       rect:
         serializedVersion: 2
         x: 197
@@ -1223,7 +1223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_27
+      name: WavesSurface_05
       rect:
         serializedVersion: 2
         x: 197
@@ -1244,7 +1244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_28
+      name: WavesSurface_06
       rect:
         serializedVersion: 2
         x: 197
@@ -1265,7 +1265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_29
+      name: WavesSurface_07
       rect:
         serializedVersion: 2
         x: 197
@@ -1286,7 +1286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_30
+      name: WavesSurface_08
       rect:
         serializedVersion: 2
         x: 197
@@ -1307,7 +1307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_31
+      name: WavesSurface_09
       rect:
         serializedVersion: 2
         x: 197
@@ -1328,7 +1328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_32
+      name: WavesSurface_10
       rect:
         serializedVersion: 2
         x: 197
@@ -1349,7 +1349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_33
+      name: WavesSurface_11
       rect:
         serializedVersion: 2
         x: 197
@@ -1370,7 +1370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_34
+      name: WavesSurface_12
       rect:
         serializedVersion: 2
         x: 197
@@ -1391,7 +1391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_35
+      name: WavesSurface_13
       rect:
         serializedVersion: 2
         x: 197
@@ -1412,7 +1412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_36
+      name: WavesSurface_14
       rect:
         serializedVersion: 2
         x: 197
@@ -1433,7 +1433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamejam_player_sheet_37
+      name: WavesSurface_15
       rect:
         serializedVersion: 2
         x: 197
@@ -1462,7 +1462,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1483,7 +1483,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1504,7 +1504,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1534,44 +1534,44 @@ TextureImporter:
       Bubble16_Pop_4: 127841879
       Bubble16_Pop_5: -475614874
       Bubble16_Pop_6: 2010739376
+      WavesUnder_06: 270999682
+      WavesUnder_07: 123670969
+      WavesUnder_08: -925012169
+      WavesUnder_09: 1460805943
+      WavesUnder_10: -767979441
+      WavesUnder_11: -1858676654
+      WavesUnder_12: 609517889
+      WavesUnder_13: -16037422
+      WavesUnder_14: 731815651
+      WavesUnder_15: -647191777
+      WavesSurface_00: -1779870492
+      WavesSurface_01: -2119909135
+      WavesSurface_02: 1747090566
+      WavesSurface_03: -1725571447
+      WavesSurface_04: -749883823
+      WavesSurface_05: 1510703202
+      WavesSurface_06: 1432818079
+      WavesSurface_07: -796578300
+      WavesSurface_08: 2025308455
+      WavesSurface_09: 917612779
+      WavesSurface_10: -208924190
+      WavesSurface_11: -968942747
+      WavesSurface_12: -741938307
+      WavesSurface_13: -1464706352
+      WavesSurface_14: -923833427
+      WavesSurface_15: -1503707100
+      WavesUnder_00: -1207128364
+      WavesUnder_01: 840185396
+      WavesUnder_02: 989062231
+      WavesUnder_03: -929517652
+      WavesUnder_04: -738370744
+      WavesUnder_05: 821434028
       gamejam_player_sheet_0: 2127015503
       gamejam_player_sheet_1: -1657096062
-      gamejam_player_sheet_10: -738370744
-      gamejam_player_sheet_11: 821434028
-      gamejam_player_sheet_12: 270999682
-      gamejam_player_sheet_13: 123670969
-      gamejam_player_sheet_14: -925012169
-      gamejam_player_sheet_15: 1460805943
-      gamejam_player_sheet_16: -767979441
-      gamejam_player_sheet_17: -1858676654
-      gamejam_player_sheet_18: 609517889
-      gamejam_player_sheet_19: -16037422
       gamejam_player_sheet_2: -1188017357
-      gamejam_player_sheet_20: 731815651
-      gamejam_player_sheet_21: -647191777
-      gamejam_player_sheet_22: -1779870492
-      gamejam_player_sheet_23: -2119909135
-      gamejam_player_sheet_24: 1747090566
-      gamejam_player_sheet_25: -1725571447
-      gamejam_player_sheet_26: -749883823
-      gamejam_player_sheet_27: 1510703202
-      gamejam_player_sheet_28: 1432818079
-      gamejam_player_sheet_29: -796578300
       gamejam_player_sheet_3: -1482770169
-      gamejam_player_sheet_30: 2025308455
-      gamejam_player_sheet_31: 917612779
-      gamejam_player_sheet_32: -208924190
-      gamejam_player_sheet_33: -968942747
-      gamejam_player_sheet_34: -741938307
-      gamejam_player_sheet_35: -1464706352
-      gamejam_player_sheet_36: -923833427
-      gamejam_player_sheet_37: -1503707100
       gamejam_player_sheet_4: 207746230
       gamejam_player_sheet_5: -285035364
-      gamejam_player_sheet_6: -1207128364
-      gamejam_player_sheet_7: 840185396
-      gamejam_player_sheet_8: 989062231
-      gamejam_player_sheet_9: -929517652
       playerspritesheet_0: -1033978176
       playerspritesheet_1: -920133601
       playerspritesheet_10: -758464337
