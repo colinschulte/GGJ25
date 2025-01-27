@@ -1534,16 +1534,6 @@ TextureImporter:
       Bubble16_Pop_4: 127841879
       Bubble16_Pop_5: -475614874
       Bubble16_Pop_6: 2010739376
-      WavesUnder_06: 270999682
-      WavesUnder_07: 123670969
-      WavesUnder_08: -925012169
-      WavesUnder_09: 1460805943
-      WavesUnder_10: -767979441
-      WavesUnder_11: -1858676654
-      WavesUnder_12: 609517889
-      WavesUnder_13: -16037422
-      WavesUnder_14: 731815651
-      WavesUnder_15: -647191777
       WavesSurface_00: -1779870492
       WavesSurface_01: -2119909135
       WavesSurface_02: 1747090566
@@ -1566,6 +1556,16 @@ TextureImporter:
       WavesUnder_03: -929517652
       WavesUnder_04: -738370744
       WavesUnder_05: 821434028
+      WavesUnder_06: 270999682
+      WavesUnder_07: 123670969
+      WavesUnder_08: -925012169
+      WavesUnder_09: 1460805943
+      WavesUnder_10: -767979441
+      WavesUnder_11: -1858676654
+      WavesUnder_12: 609517889
+      WavesUnder_13: -16037422
+      WavesUnder_14: 731815651
+      WavesUnder_15: -647191777
       gamejam_player_sheet_0: 2127015503
       gamejam_player_sheet_1: -1657096062
       gamejam_player_sheet_2: -1188017357
