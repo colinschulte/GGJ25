@@ -9,11 +9,15 @@ public class MainMenu : MonoBehaviour
     public AudioSource popB;
     public Image ControlScreen;
     public Image CreditsScreen;
+    public GameObject MobileControls;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (Application.isMobilePlatform)
+        {
+            MobileControls.SetActive(true);
+        }
     }
 
     // Update is called once per frame

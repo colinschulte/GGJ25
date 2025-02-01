@@ -144,7 +144,12 @@ public class PlayerMovement : MonoBehaviour
     {
         isShooting = true;
         Shoot.Play();
-        Instantiate(bubble, shotPosition.position, shotPosition.rotation);
+        BubbleLaunch newBubble = Instantiate(bubble, shotPosition.position, shotPosition.rotation);
+        if (sprite.flipY)
+        {
+            newBubble.sprite.flipX = true;
+            newBubble.sprite.flipY = true;
+        };
         yield return new WaitForSeconds(0.2f);
         isShooting = false;
     }

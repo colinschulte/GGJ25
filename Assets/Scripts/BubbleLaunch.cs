@@ -7,6 +7,7 @@ public class BubbleLaunch : MonoBehaviour
 {
     public float speed = 10f;
     public Animator animator;
+    public SpriteRenderer sprite;
     public SharkMovement shark;
     public AudioSource PopA;
     // Start is called before the first frame update

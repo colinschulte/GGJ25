@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   animator: {fileID: 0}
+  sprite: {fileID: 0}
   shark: {fileID: 0}
   PopA: {fileID: 0}
 --- !u!1 &1515297798973683659
@@ -179,6 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.2
   animator: {fileID: 269532149639032275}
+  sprite: {fileID: -5107702045694280515}
   shark: {fileID: 0}
   PopA: {fileID: -6018020070717288402}
 --- !u!61 &-6487387633643149183
