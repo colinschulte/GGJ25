@@ -52,4 +52,10 @@ public class MainMenu : MonoBehaviour
         ControlScreen.gameObject.SetActive(false);
         CreditsScreen.gameObject.SetActive(false);
     }
+
+    public void BackToMain()
+    {
+        popB.Play();
+        SceneManager.LoadSceneAsync(0);
+    }
 }

@@ -321,6 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e742ea17494e57944adc356ea0ec869e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 610967015}
   groundCheck: {fileID: 1082171864}
   platform: {fileID: 162584152}
 --- !u!61 &162584152
@@ -1135,6 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e742ea17494e57944adc356ea0ec869e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 610967015}
   groundCheck: {fileID: 1082171864}
   platform: {fileID: 361842172}
 --- !u!61 &361842172
@@ -1418,6 +1420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e742ea17494e57944adc356ea0ec869e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 610967015}
   groundCheck: {fileID: 1082171864}
   platform: {fileID: 512878158}
 --- !u!61 &512878158
@@ -1684,6 +1687,7 @@ GameObject:
   - component: {fileID: 610967014}
   - component: {fileID: 610967016}
   - component: {fileID: 610967017}
+  - component: {fileID: 610967018}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -1799,6 +1803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f5a39b9a5bbc648bb388120e70ad05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Move: {x: 0, y: 0}
+  Jump: 0
+  Attack: 0
   renderer: {fileID: 610967012}
   rbody: {fileID: 610967014}
   collider: {fileID: 1082171864}
@@ -1895,6 +1902,36 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &610967018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610967010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 9726dbbde3d9c54429c3f52d24ec36f4, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &657911586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,6 +2373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e742ea17494e57944adc356ea0ec869e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 610967015}
   groundCheck: {fileID: 1082171864}
   platform: {fileID: 691567673}
 --- !u!50 &691567678
@@ -4602,6 +4640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e742ea17494e57944adc356ea0ec869e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 610967015}
   groundCheck: {fileID: 1082171864}
   platform: {fileID: 1612690828}
 --- !u!61 &1612690828
@@ -5825,6 +5864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e742ea17494e57944adc356ea0ec869e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 610967015}
   groundCheck: {fileID: 1082171864}
   platform: {fileID: 2068522952}
 --- !u!61 &2068522952

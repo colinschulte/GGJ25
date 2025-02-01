@@ -26,4 +26,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LastScene.unity
     guid: 19271f5cba917734ea9b798a5c1a11a6
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 9726dbbde3d9c54429c3f52d24ec36f4, type: 3}

@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 //using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Vector2 Move;
+    public bool Jump;
+    public bool Attack;
     public SpriteRenderer renderer;
     public Rigidbody2D rbody;
     public Collider2D collider;
@@ -52,21 +56,24 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementLR = Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump") && (collider.bounds.Intersects(ground.bounds) && Input.GetAxisRaw("Vertical") >= 0))
+        movementLR = Move.x;
+        if (Jump && collider.bounds.Intersects(ground.bounds))
         {
-            jumpPressed = true;
+            if (Move.y >= 0)
+            {
+                jumpPressed = true;
+            }
+            else
+            {
+                //Jump = false;
+            }
         }
 
         //firing bubbles
-        if (Input.GetButtonDown("Fire1"))
+        if (Attack)
         {
             StartCoroutine(Fire());
-        }
-
-        if (Input.inputString != "")
-        {
-            Debug.Log(Input.inputString);
+            Attack = false;
         }
 
         if (jewels.transform.childCount <= 0)
@@ -98,6 +105,7 @@ public class PlayerMovement : MonoBehaviour
             JumpB.Play();
             jumpPower = jumpForce;
             jumpPressed = false;
+            Jump = false;
         }
         else
         {
@@ -123,6 +131,8 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("isShooting", isShooting);
         animator.SetFloat("vertDirection", rbody.velocity.y);
+
+        Jump = false;
     }
 
     public void runDeath(string tag)
@@ -188,5 +198,20 @@ public class PlayerMovement : MonoBehaviour
     public void Back()
     {
         SceneManager.LoadSceneAsync(0);
+    }
+
+    private void OnMove(InputValue value)
+    {
+        Move = value.Get<Vector2>();
+    }
+
+    private void OnJump()
+    {
+        Jump = true;
+    }
+
+    private void OnAttack()
+    {
+        Attack = true;
     }
 }
