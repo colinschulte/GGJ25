@@ -244,6 +244,17 @@
                 },
                 {
                     "name": "",
+                    "id": "0c86eb34-95b3-4b27-b1ee-7a42c47fac29",
+                    "path": "<HID::8Bitdo SF30 Pro   8Bitdo SN30 Pro>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c1f7a91b-d0fd-4a62-997e-7fb9b69bf235",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
@@ -343,6 +354,17 @@
                 },
                 {
                     "name": "",
+                    "id": "48f367c3-5103-4737-b61e-a055ef7b5406",
+                    "path": "<HID::8Bitdo SF30 Pro   8Bitdo SN30 Pro>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cbac6039-9c09-46a1-b5f2-4e5124ccb5ed",
                     "path": "<Keyboard>/2",
                     "interactions": "",
@@ -433,6 +455,17 @@
                     "name": "",
                     "id": "337398f7-1828-4e1b-ad85-68e552def630",
                     "path": "<HID::8BitDo 8BitDo Micro gamepad>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "008fa7ed-eadd-4511-85b9-cbf9a08dddf3",
+                    "path": "<HID::8Bitdo SF30 Pro   8Bitdo SN30 Pro>/button2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1059,7 +1092,7 @@
             "devices": [
                 {
                     "devicePath": "<Touchscreen>",
-                    "isOptional": false,
+                    "isOptional": true,
                     "isOR": false
                 }
             ]

@@ -11,6 +11,7 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
     public Vector2 Move;
+    public bool canMove = true;
     public bool Jump;
     public bool Attack;
     public SpriteRenderer renderer;
@@ -51,24 +52,27 @@ public class PlayerMovement : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody2D>();
         //collider = GetComponent<Collider2D>();
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        movementLR = Move.x;
-        if (Jump && collider.bounds.Intersects(ground.bounds))
+        if (canMove)
         {
-            if (Move.y >= 0)
+            movementLR = Move.x;
+            if (Jump && collider.bounds.Intersects(ground.bounds))
             {
-                jumpPressed = true;
-            }
-            else
-            {
-                //Jump = false;
+                if (Move.y >= 0)
+                {
+                    jumpPressed = true;
+                }
             }
         }
-
+        else
+        {
+            movementLR = 0;
+        }
         //firing bubbles
         if (Attack)
         {
@@ -142,20 +146,24 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator Fire()
     {
-        isShooting = true;
-        Shoot.Play();
-        BubbleLaunch newBubble = Instantiate(bubble, shotPosition.position, shotPosition.rotation);
-        if (sprite.flipY)
+        if (canMove)
         {
-            newBubble.sprite.flipX = true;
-            newBubble.sprite.flipY = true;
-        };
-        yield return new WaitForSeconds(0.2f);
-        isShooting = false;
+            isShooting = true;
+            Shoot.Play();
+            BubbleLaunch newBubble = Instantiate(bubble, shotPosition.position, shotPosition.rotation);
+            if (sprite.flipY)
+            {
+                newBubble.sprite.flipX = true;
+                newBubble.sprite.flipY = true;
+            };
+            yield return new WaitForSeconds(0.2f);
+            isShooting = false;
+        }
     }
 
     IEnumerator Death(string tag)
     {
+        canMove = false;
         if (tag == "Jelly")
         {
             animator.SetBool("isShocked", true);
@@ -172,6 +180,7 @@ public class PlayerMovement : MonoBehaviour
             lives--;
             livesText.text = "Lives: " + lives;
             renderer.enabled = true;
+            canMove = true;
         }
         else
         {
